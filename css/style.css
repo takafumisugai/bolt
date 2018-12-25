@@ -109,7 +109,7 @@ body{
 }
 .icon_title{
   font-size:24px;
-  margin-bottom: 40px;
+  padding-bottom: 40px;
 }
 .icon_items{
   display: flex;
@@ -121,7 +121,7 @@ body{
   opacity: .7;
   transition: all .3s;
 }
-.icon_items_inner:hover{
+a:hover{
   opacity: 1;
 }
 .icon_items_inner:nth-of-type(1){
