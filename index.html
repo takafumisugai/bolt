@@ -17,8 +17,16 @@
   <body>
     <header id="header" class="header_title">
       <div class="header_inner clearfix">
-        <i class="fa fa-bolt fa-2x header_content" aria-hidden="true"></i>
-        <a href class="header_contact header_content">Contact</a>
+          <i class="fa fa-bolt fa-2x header_content" aria-hidden="true"></i>
+        <div id="nav-drawer" class="none">
+        <input id="nav-input" type="checkbox" class="nav-unshown">
+        <label id="nav-open" for="nav-input">
+          <span></span>
+        </label>
+        <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+        <div id="nav-content">Contact</div>
+        </div>
+        <a class="header_contact header_content none_sp">Contact</a>
       </div>
     </header>
     <main>
@@ -33,7 +41,7 @@
           <div class="sp_icon">
             <img src="img/iphone.png">
           </div>
-          <div class="sp_text">
+          <div class="sp_text content_inner">
             <h2 class="sp_text_title ff_raleway">WHAT WE CAN DO?</h2>
             <p class="sp_text_inner">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
           </div>
@@ -62,7 +70,7 @@
             <img src="img/06.jpg">
           </a>
         </div>
-        <div class="icon_text">
+        <div class="icon_text content_inner">
           <p class="icon_text_inner ff_raleway">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
           <a href="" class="icon_btn">Email Me!</a>
         </div>
